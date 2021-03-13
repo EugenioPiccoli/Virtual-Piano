@@ -1,0 +1,62 @@
+body {
+    background-color: sandybrown;
+    margin: auto;
+}
+
+.white-keys kbd {
+    background-color: white;
+    display: inline-block;
+    height: 196px;
+    width: 46px;
+    border: 2px solid darkgrey;
+    text-align: center;
+    margin: 0 -2px;
+}
+
+.white-keys {
+    width: 350px;
+    height: 200px;
+}
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    height: 120px;
+    width: 30px;
+    text-align: center;
+    margin: 0 -2px;
+}
+
+.black-keys {
+    position: absolute;
+    width: 375px;
+    margin-top: -80px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#DO\# {
+    margin-left: 40px;
+}
+
+#MIb {
+    margin-left: 20px;
+}
+
+#FA\# {
+    margin-left: 70px;
+}
+
+#LAb {
+    margin-left: 20px;
+}
+
+#SIb {
+    margin-left: 20px;
+}
